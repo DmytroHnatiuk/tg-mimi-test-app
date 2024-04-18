@@ -420,6 +420,9 @@
         Version: <span id="ver"></span>,
         platform: <span id="platform"></span>
     </div>
+    <div class="href">
+
+    </div>
 </section>
 <div class="viewport-border"></div>
 <div class="viewport-stable_border"></div>
@@ -919,6 +922,10 @@
     });
 
     DemoApp.testClipboard(document.getElementById('clipboard_test'));
+</script>
+
+<script>
+    document.querySelector('.href').innerHTML = location.href;
 </script>
 
 </body>
